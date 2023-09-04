@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.div-container-header {
+  background-color: #1f2937;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-family: monospace;
+}
+
+.header-link-container {
+  display: flex;
+  padding: 0;
+  gap: 75px;
+}
+
+.header-link-one {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-family: monospace;
+}
+
+.header-link-two {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-family: monospace;
+}
+
+.header-link-three {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-family: monospace;
+}

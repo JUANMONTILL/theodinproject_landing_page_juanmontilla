@@ -78,10 +78,12 @@ h1 {
   color: #ffffff;
   font-family: monospace;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .intro a {
   text-decoration: none;
+  width: 200px;
 }
 
 .intro-image img {

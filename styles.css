@@ -1,41 +1,185 @@
 body {
+  background-color: #FFFFFF;
+  padding: 0;
   margin: 0;
+  text-align: center;
+  font-family: monospace;
 }
 
-.div-container-header {
-  background-color: #1f2937;
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  padding: 20px 0px 20px 100px;
+  align-items: center;
+}
+
+.header-logo p {
+  font-size: 24px;
+  margin-right: auto;
+}
+
+.header-link {
+  display: flex;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px;  
+}
+
+.header-link a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
   padding: 10px;
+  font-family: monospace;
+}
+
+.intro {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.intro-1 {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.intro-1 p {
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin: 0;
+  font-family: monospace;
+}
+
+.intro button {
+  display: block;
+  text-align: center;
+  width: 200px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: monospace;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.intro-image img {
+  width: 350px;
+  height: 425px;
+}
+
+.content {
+  align-items: center;
+}
+
+.content-title {
+  font-size: 36px;
+}
+
+.content-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.content-info img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid rgb(238, 255, 0);
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 0 200px;
+}
+
+.message p {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: monospace;
+  margin-top: 100px;
+}
+
+.message b {
+  padding-bottom: 20px;
+  font-family: monospace;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+.unete-al-goat {
+  background-color: #3882F6 ;
+  margin: 50px 200px;
+  padding: 10px 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  border-radius: 9px;
+  border-color: none;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
-.header-logo {
-  font-size: 24px;
-  color: #f9faf8;
+.unete-item {
+  flex: 1;
+}
+
+.unete-text {
+  text-align: left;
+}
+
+.unete-text p {
+  color: #ffffff;
+  margin: 5px 30px 30px 50px;
+}
+
+h3 {
+  color: #ffffff;
   font-family: monospace;
+  margin: 30px 0px 0px 50px;
+  font-size: 30px;
 }
 
-.header-link-container {
-  display: flex;
-  padding: 0;
-  gap: 75px;
-}
-
-.header-link-one {
-  font-size: 18px;
-  color: #e5e7eb;
+.unete-button button {
+  color: #ffffff;
   font-family: monospace;
+  border-color: #ffffff;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 5px 25px;
+  font-size: 15px;
 }
 
-.header-link-two {
-  font-size: 18px;
-  color: #e5e7eb;
+.footer {
+  background-color: #1F2937;
+  color: #ffffff;
   font-family: monospace;
-}
-
-.header-link-three {
-  font-size: 18px;
-  color: #e5e7eb;
-  font-family: monospace;
+  font-size: 20px;
 }
